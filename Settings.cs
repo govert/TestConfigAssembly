@@ -157,7 +157,7 @@ namespace TestConfigAssembly
 
 	public static class SettingsFunction
 	{
-		public static object GetSettingsPath()
+		public static object GetSettingsInfo()
 		{
 			try
 			{
@@ -171,7 +171,7 @@ namespace TestConfigAssembly
 			}
 		}
 
-        public static object GetServers()
+        public static object GetSettingsServers()
         {
             try
             {
